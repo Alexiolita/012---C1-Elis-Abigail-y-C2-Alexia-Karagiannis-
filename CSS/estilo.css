@@ -1,0 +1,173 @@
+body{
+    background-image: url('../Images/fondoBody.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(202, 206, 200); 
+    }
+/*Encabezado*/
+.encabezado{
+    background-color:rgba(87, 90, 88, 0.65);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5%;
+    padding: 1% 2% 1% 2%;
+    }    
+#logo{
+    width: 13%;
+    }
+.Navegador{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    }
+.li-navegador{
+    list-style: none;
+    cursor: pointer;  
+    }
+.menu{
+    font-size: 23px;
+    font-weight: bold;
+    color:rgb(238, 238, 242);
+    text-decoration: none;
+    padding: 10px;
+    }
+.menu:hover {
+    background-color: rgba(129, 5, 30, 0.741);
+    }
+/*Titulo*/
+.titulo{
+    background-color: rgba(129, 5, 30, 0.741);
+    padding: 2px;
+    }
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*Cuerpo*/
+.contenido{
+    padding: 2%;
+    margin-top: 0.5%;
+    background-color:rgba(16, 34, 19, 0.8);
+}
+p{
+    font-size: 18px; 
+    text-align: justify;
+}
+/*imagenHTML1*/
+#imagenZombies {
+    width: 100%;
+}
+/*Subtitulos*/
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+span{
+    background-color: rgba(65, 8, 19, 0.768);
+    padding: 5px;
+}
+/*Lista*/
+.li-kit{
+    list-style: circle;
+}
+/*Tabla*/
+table {
+    width: 100%;
+}
+th {
+    font-size: 18px;
+    background-color: rgba(165, 42, 42, 0.685);
+}
+tbody {
+    color: bisque;
+    background-color: rgba(3, 39, 27, 0.788);
+}
+table, td, tr {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+/*Formulario*/
+.formulario{ /*div que contiene label con su input correspondiente*/
+    margin: 3% 0% 3% 0%;  
+  }
+label{
+    font-weight: bold;
+    padding-right: 3%;
+}
+input{
+    color: bisque;
+    border: 3px inset rgba(92, 32, 32, 0.707);
+    background-color: rgba(123, 97, 97, 0.623);
+}
+
+/*Captcha*/
+.divCaptcha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(86, 0, 0);
+    width: 30%;
+    padding: 15px;
+    margin-left: 30%;
+    background-color: rgba(65, 8, 19, 0.651);
+}
+
+#captcha{
+    width: 90%;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('../Images/Fondo.jpeg');
+    border: outset rgba(31, 29, 29, 0.473);
+    text-align: center;
+}
+#ingresoCaptcha{
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+    border: 2px inset rgba(31, 29, 29, 0.569);
+}
+label{
+    padding: 2%;
+    color: white;
+}
+#botonCaptcha{
+    border: 2px outset rgba(230, 139, 139, 0.569);
+}
+#textoVerificaCaptcha{
+    color: rgb(3, 153, 0);
+    font-size: 12px;
+    text-align: center;
+}
+.captchaIncorrecto{
+    text-align: center;
+    border-top: 5px ridge rgba(202, 179, 184, 0.651);
+    border-bottom: 5px ridge rgba(202, 179, 184, 0.651);
+    color: rgb(231, 216, 219);
+}
+.captchaCorrecto{
+    text-align: center;
+    border: 5px ridge rgba(141, 0, 31, 0.651);
+    padding: 5px;
+    background-color: burlywood;
+    color: rgb(141, 0, 31);
+}
+/*Footer*/
+h6{
+    background-color:rgba(87, 90, 88, 0.571);
+    font-size: 15px;
+    text-align: center;
+    padding:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    position:sticky;
+}
